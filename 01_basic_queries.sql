@@ -30,3 +30,13 @@ ORDER BY sales_amount DESC;
 SELECT *
 FROM sales
 LIMIT 10;
+```sql
+    
+-- 6. Calculate total sales
+SELECT SUM(sales_amount)
+FROM sales;
+
+-- 7. Count total transactions
+SELECT COUNT(*)
+FROM sales;
+```
